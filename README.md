@@ -1,5 +1,5 @@
 ## Descripción del proyecto
-API para la administración de médicos y pacientes
+API para la gestión de médicos, pacientes y consultas
 
 ## Funcionalidades
 - [x] Login: user: diego.rojas  pass: 123456
@@ -17,13 +17,21 @@ API para la administración de médicos y pacientes
 * Reglas de negocio:
   * No permitir actualizar: Correo y Documento de identidad
 
-- [x] Exclusión de médicos/pacientes
+- [x] Eliminar de médicos/pacientes
 * El registro no debe ser borrado de la base de datos
 * El listado solo debe retornar Médicos activos
 
+- [x] El horario de atención de la clínica es de lunes a sábado, de 7:00 a 19:00
+* Solo se pueden crear consultas en este horario
+
+- [x] Las consultas deben programarse con al menos 30 minutos de anticipación
+- [x] No permitir crear consultas con pacientes/médicos inactivos/eliminados
+- [x] No permitir reservar más de una consulta en el mismo día para el mismo paciente
+- [x] No permitir reservar una consulta con un médico que ya tiene otra consulta reservada en la misma fecha/hora
+- [x] La elección de un médico es opcional. En caso de que no exista el id, el sistema debe elegir aleatoriamente un médico que esté disponible en la fecha/hora ingresada 
 
 ## Colección de peticiones
-[Insomnia_vollmedapi.zip](https://github.com/user-attachments/files/18053329/Insomnia_2024-12-08_vollmedapi.zip)
+[Insomnia_vollmedapi.zip](xxx)
 
 </br>
 
