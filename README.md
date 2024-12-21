@@ -31,12 +31,12 @@ API para la gestión de médicos, pacientes y consultas
 - [x] La elección de un médico es opcional. En caso de que no exista el id, el sistema debe elegir aleatoriamente un médico que esté disponible en la fecha/hora ingresada 
 
 ## Colección de peticiones
-[Insomnia_vollmedapi.zip](xxx)
+[Insomnia_voll.zip](https://github.com/user-attachments/files/18219293/Insomnia_voll.zip)
 
 </br>
 
 >[!IMPORTANT]
->* Crea la base de datos con el nombre 'vollmedapi'
+>* Crea la base de datos con el nombre 'vollmedapi' en MySQL
 >* Reemplaza las credenciales de acceso a la bd en el archivo application.properties
 >* Ejecuta el proyecto
 
