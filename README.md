@@ -30,6 +30,20 @@ API para la gestión de médicos, pacientes y consultas
 - [x] No permitir reservar una consulta con un médico que ya tiene otra consulta reservada en la misma fecha/hora
 - [x] La elección de un médico es opcional. En caso de que no exista el id, el sistema debe elegir aleatoriamente un médico que esté disponible en la fecha/hora ingresada 
 
+## Extra
+- [x] Crea la documentación usando Spring Doc con swagger
+* Ejecuta el proyecto e ingresa a http://localhost:8080/swagger-ui/index.html
+
+![image](https://github.com/user-attachments/assets/3dd97abd-d14d-4f69-b98b-1987bdbb6b08)
+
+- [x] Pruebas automáticas para la creación de Médicos/Consultas
+* Test error 400 
+* Test código 200
+
+- [x] Pruebas al repositorio de Médico
+* Debería devolver null cuando el médico buscado existe, pero no está disponible en esa fecha
+* Debería devolver un médico cuando está disponible en esa fecha
+
 ## Colección de peticiones
 [Insomnia_voll.zip](https://github.com/user-attachments/files/18219293/Insomnia_voll.zip)
 
